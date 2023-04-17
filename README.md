@@ -9,6 +9,13 @@ My client (who is currently a student in an ib school )has expressed  their worr
 ### Proposed solution 
 Considering the requirements for the idea, an adequate solution is creating a social network website for  G11 isak students and G12 where the users can share their notes in form of posts and also view other users posts that will be organized in categories based on the subject so that the user can access it easily. which is a feature that facebook groups or other social network groups, since it will be harder and harder for students to find notes they quickly for past lessons especially G12s.
 Furthermore in order to create the website I will be using  python , html and css because firstly python is  a multi-functionality language having capabilities to operate in multiple ways, that does not need a license and also easily understandable and usable  for the programmer.for html and css,as Both HTML and CSS are frequently used languages for web development  , also HTML uses a tag-based structure which is easy to understand even without any prior technical experience, and CSS uses a simplistic structure as well making the learning curve for mastery relatively easy; therefore it is more adequate for the developer of the website who is more comfortable with these languages than others like java scripts and in order to keep it organized and fulfill the success criteria , I will use sql to associate a database to the website because it's portability makes it a convenient option for users, as they can transfer it from one device to another with no issues. It processes queries quickly. No matter how large data might be, SQL can retrieve it quickly and efficiently.[^3] so that the  client will be able to add, withdraw and edit the notes shared.
+### Success Criteria 
+1. The solution needs to have a login and a registration system.
+2. The solution needs to contain a page where client can see all posts 
+3. The solution needs to be able to keep  the nots posts  organized and easily to follow by providing a filtering button 
+4. The solution needs to enable the client to add new posts 
+5. The solution needs to enable the client to delete unwanted posts.
+6. The solution needs to have a menu where notes are categorized into subjects such as category for english lang-lit , History and Computer sciene.
 
 
 
