@@ -28,3 +28,10 @@ Furthermore in order to create the website I will be using  python , html and cs
 | 5  | Write down the proposed solution with justification of tools implied | Reasearch and evaluation of solutions to choose an adequate one                                   | Planning       | 30 min     | 17 april        | A        |
 | 6 | Write down the success criterias  | Choosing important feature of the website that will show how successful or unsuccessful the website is                                   | Planning       | 30 min     | 17 april        | A        |
 
+
+
+
+
+### Work cited 
+[^3]: https://www.businessnewsdaily.com/5804-what-is-sql.html#:~:text=Its%20portability%20makes%20it%20a,retrieve%20it%20quickly%20and%20efficiently.
+
