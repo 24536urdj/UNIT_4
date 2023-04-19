@@ -26,6 +26,9 @@ The social network  website  will be created  using  python , html and css becau
 | 4  | Write down the problem definition                              | state a detailed version of the problem                       | Planning       | 40 minutes    | 13 april         | A        |
 | 5  | Write down the proposed solution with justification of tools implied | Reasearch and evaluation of solutions to choose an adequate one                                   | Planning       | 30 min     | 17 april        | A        |
 | 6 | Write down the success criterias  | Choosing important feature of the website that will show how successful or unsuccessful the website is                                   | Planning       | 30 min     | 17 april        | A        |
+| 7 | Rewrite the problem definition  | Add more details to the problem definition in order to stte clearly the main issue                                | Planning       | 20 min     | 19 april        | A        |
+
+
 
 
 
