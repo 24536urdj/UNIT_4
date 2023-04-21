@@ -33,7 +33,7 @@ The social network  website  will be created  using  python , html and css becau
 
 # Criteria C: Developement 
 
-## Posts code : success criteria (2)
+## success criteria (2): posts page html code 
 ```.py 
 <!DOCTYPE html>
 <html lang="en">
@@ -249,6 +249,125 @@ The social network  website  will be created  using  python , html and css becau
 
 
 ```
+## Css code for the posts page 
+```.py 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 100px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+  background-image: url("MOI.png");
+  background-repeat: repeat;
+  background-size: 700px;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+
+}
+.fakeimga {
+  background-image: url("mira.png");
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 300px;
+  padding: 50px;
+
+}
+
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: black;
+  margin-top: 10px;
+  -webkit-text-fill-color: white;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
+```
+
+# The code above shows the way in which the posts page was developed using html and css
+
+
+
+
 
 
 
