@@ -16,7 +16,6 @@ The social network  website  will be created  using  python , html and css becau
 5. [issue tackled : update the notes so that it harmonizes with the curriculum of the year]The solution needs to enable the client to delete unwanted posts.
 6.[issue tackled :  organization of the posts ] The solution needs to have a menu where notes are categorized into subjects such as category for english lang-lit , History and Computer sciene.
 
-# Criteria C: Developement 
 ## Task Record 
 
 |    | Planned Action                                        | Planned Outcome                                                                            | Design Cycle   | Time Estimate | Target Completion | Criteria |
@@ -32,6 +31,9 @@ The social network  website  will be created  using  python , html and css becau
 | 9 | Code the posts page  |     programming the posts page using  python and pycharm                              | Development        | 30 min     | 21 april        | C      |
 | 10 |  menu bar  | use the header attribute to add a menu bar so that students can naviagte the website easily                                 | Development        | 15 min     | 21 april        | C      |
 
+# Criteria C: Developement 
+
+## Posts code : success criteria (2)
 
 
 
