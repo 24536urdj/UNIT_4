@@ -363,7 +363,56 @@ body {
 }
 ```
 
-# The code above shows the way in which the posts page was developed using html and css
+The code above shows the way in which the posts page was developed using html and css.
+In the html file: 
+In the Css file : 
+
+
+## Menu bar html and Css code :
+ Html code : 
+ ```.py 
+ <!DOCTYPE html>
+<head lang="en">
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#Posts">Posts</a>
+        <a href="#contact">Contact</a>
+        <a href="#Register"> Register </a>
+    </div>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet"href="/static/my_style.css">
+    </head>
+ ```
+ Css code : 
+ ```.py 
+ .topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
+ ```
 
 
 
