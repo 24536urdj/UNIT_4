@@ -29,6 +29,11 @@ The social network  website  will be created  using  python , html and css becau
 | 7 | Rewrite the problem definition  | Add more details to the problem definition in order to stte clearly the main issue                                | Planning       | 20 min     | 19 april        | A        |
 | 8 | Code the main page  |     programming the main page using  python and pycharm                              | Development        | 30 min     | 21 april        | C      |
 | 9 | Code the posts page  |     programming the posts page using  python and pycharm                              | Development        | 30 min     | 21 april        | C      |
+| 9 |  menu bar  | use the header attribute to add a menu bar so that students can naviagte the website easily                                 | Development        | 15 min     | 21 april        | C      |
+
+
+
+
 
 
 
