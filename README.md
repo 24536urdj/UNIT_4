@@ -30,6 +30,7 @@ The social network  website  will be created  using  python , html and css becau
 | 8 | Code the main page  |     programming the main page using  python and pycharm                              | Development        | 30 min     | 21 april        | C      |
 | 9 | Code the posts page  |     programming the posts page using  python and pycharm                              | Development        | 30 min     | 21 april        | C      |
 | 10 |  menu bar  | use the header attribute to add a menu bar so that students can naviagte the website easily                                 | Development        | 15 min     | 21 april        | C      |
+| 11 |  Login and registration page  | use transition method in  javascript html and css in order to create a login and registration page                                | Development        | 45 min     | 24 april        | C      |
 
 # Criteria C: Developement 
 
@@ -368,7 +369,7 @@ In the html file:
 In the Css file : 
 
 
-## Menu bar html and Css code :
+##Success criteria  Menu bar html and Css code :
  Html code : 
  ```.py 
  <!DOCTYPE html>
