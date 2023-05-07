@@ -39,6 +39,8 @@ https://drive.google.com/file/d/1hwkE0FZ1w6jCV-ABtu-T_lTO2caMC96m/view?usp=share
 | 10 |  menu bar  | use the header attribute to add a menu bar so that students can naviagte the website easily                                 | Development        | 15 min     | 21 april        | C      |
 | 11 |  Login and registration page  | use transition method in  javascript html and css in order to create a login and registration page                                | Development        | 45 min     | 24 april        | C      |
 | 12 |  the post creation page   | programming a page where the client can add their own notes as posts                                 | Development        | 45 min     | 26 april        | C      |
+| 13|  flowcharts   | create the first flow chart that shows  the code that classifies    files into categories                            | Design       | 20 min     | 07 May       | B     |
+
 
 
 
