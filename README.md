@@ -8,6 +8,10 @@ My client (who is currently a student in an ib school )has expressed  their worr
 ### Proposed solution 
 Considering the requirements for the idea, an adequate solution is creating a social network website for  G11 isak students and G12 where the users can create an account and  share their notes in form of posts while also having the ability to view other users posts that will be organized in categories based on the subject and also ordered in a chronological way so that the user can access it easily and quickly. 
 The social network  website  will be created  using  python , html and css because firstly python is  a multi-functionality language having capabilities to operate in multiple ways, that does not need a license and also easily understandable and usable  for the programmer.for html and css,as Both HTML and CSS are frequently used languages for web development  , also HTML uses a tag-based structure which is easy to understand even without any prior technical experience, and CSS uses a simplistic structure as well making the learning curve for mastery relatively easy; therefore it is more adequate for the developer of the website who is more comfortable with these languages than others like java scripts and in order to keep it organized and fulfill the success criteria , I will use sql to associate a database to the website because it's portability makes it a convenient option for users, as they can transfer it from one device to another with no issues. It processes queries quickly. No matter how large data might be, SQL can retrieve it quickly and efficiently.[^3] so that the  client will be able to add, withdraw and edit the notes shared.
+### Design statement
+Taking into consideration the client's requirements and need , I will design this notes sharing  website using python, html, css , javascript , sqlite and flask , therefore it will take  me 4 weeks to develop it .
+At the end ,The effectiveness of the website will be evaluated using the success criterias below.
+
 ### Success Criteria 
 1. [issue tackled : enable only isak students to access the website ]: The solution needs to have a login and a registration system.
 2. [issue tackled :  having access to other students posts ]The solution needs to contain a page where client can see all posts 
@@ -15,6 +19,7 @@ The social network  website  will be created  using  python , html and css becau
 4. [issue tackled : notes sharing between isak students ]The solution needs to enable the client to add new posts 
 5. [issue tackled : update the notes so that it harmonizes with the curriculum of the year]The solution needs to enable the client to delete unwanted posts.
 6.[issue tackled :  organization of the posts ] The solution needs to have a menu where notes are categorized into subjects such as category for english lang-lit , History and Computer sciene.
+
 
 
 # Criteria B 
@@ -50,6 +55,9 @@ https://drive.google.com/file/d/1hwkE0FZ1w6jCV-ABtu-T_lTO2caMC96m/view?usp=share
 | 11 |  Login and registration page  | use transition method in  javascript html and css in order to create a login and registration page                                | Development        | 45 min     | 24 april        | C      |
 | 12 |  the post creation page   | programming a page where the client can add their own notes as posts                                 | Development        | 45 min     | 26 april        | C      |
 | 13|  flowcharts   | create the first flow chart that shows  the code that classifies    files into categories                            | Design       | 20 min     | 07 May       | B     |
+| 14|  UML diagram  | create the UML diagram that shows visually the classes contained in the code                            | Design       | 10 min     | 09 May       | B     |
+| 15| Database table  | create a database table to insert the English subject  files uploaded by the client                             | Development      | 5 min     | 09 May       | C     |
+
 
 
 
