@@ -21,6 +21,9 @@ The social network  website  will be created  using  python , html and css becau
 ## Flow chart 
 
 https://drive.google.com/file/d/1hwkE0FZ1w6jCV-ABtu-T_lTO2caMC96m/view?usp=share_link
+## UML Diagram : 
+![Screen Shot 2023-05-09 at 16 01 44](https://user-images.githubusercontent.com/112072887/237019586-e0c3efa1-16b8-49bf-8954-fde620ba5da5.png)
+
 
 ### fig_:  this link shows a flowchart for the code that classifes the files chosen by the user in form of subject categories.
 ## Test Plan
