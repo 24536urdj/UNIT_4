@@ -66,385 +66,42 @@ https://drive.google.com/file/d/1hwkE0FZ1w6jCV-ABtu-T_lTO2caMC96m/view?usp=share
 
 ## success criteria (2): posts page html code 
 ```.py 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    {% if title %}
-    <title>{{ title }}</title>
-    {% else %}
-    <title> Welcome </title>
-    {%  endif%}
-    <link rel="stylesheet"href="/static/my_css.css">
-</head>
-<body>
-<div class="container cta-100 ">
-    <div class="container">
-        <div class="row blog">
-            <div class="col-md-12">
-                <div id="blogCarousel" class="carousel slide container-blog" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#blogCarousel" data-slide-to="1"></li>
-                    </ol>
-                    <!-- Carousel items -->
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row">
-                                <div class="col-md-4" >
-                                    <div class="item-box-blog">
-                                        <div class="item-box-blog-image">
-                                            <!--Date-->
-                                            <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div>
-                                            <!--Image-->
-                                            <figure> <img alt="" src="https://pixabay.com/get/g9fecae00b48af6ad3638a7c7a96aba1aff5a92fe390044699ed53d8a48e5ff99bdc2cb3e8ac8f552db2e8926f8003afd_1280.jpg"> </figure>
-                                        </div>
-                                        <div class="item-box-blog-body">
-                                            <!--Heading-->
-                                            <div class="item-box-blog-heading">
-                                                <a href="#" tabindex="0">
-                                                    <h5>News Title</h5>
-                                                </a>
-                                            </div>
-                                            <!--Data-->
-                                            <div class="item-box-blog-data" style= background-color:lightcyan;">
-                                                <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
-                                            </div>
-                                            <!--Text-->
-                                            <div class="item-box-blog-text">
-                                                <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>
-                                            </div>
-                                            <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
-                                            <!--Read More Button-->
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4" >
-                                    <div class="item-box-blog">
-                                        <div class="item-box-blog-image">
-                                            <!--Date-->
-                                            <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div>
-                                            <!--Image-->
-                                            <figure> <img alt="" src="guten.png"> </figure>
-                                        </div>
-                                        <div class="item-box-blog-body">
-                                            <!--Heading-->
-                                            <div class="item-box-blog-heading">
-                                                <a href="#" tabindex="0">
-                                                    <h5>News Title</h5>
-                                                </a>
-                                            </div>
-                                            <!--Data-->
-                                            <div class="item-box-blog-data" style="background-color: lightcyan;">
-                                                <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
-                                            </div>
-                                            <!--Text-->
-                                            <div class="item-box-blog-text">
-                                                <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>
-                                            </div>
-                                            <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
-                                            <!--Read More Button-->
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4" >
-                                    <div class="item-box-blog">
-                                        <div class="item-box-blog-image">
-                                            <!--Date-->
-                                            <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div>
-                                            <!--Image-->
-                                            <figure> <img alt="" src="guten.png"> </figure>
-                                        </div>
-                                        <div class="item-box-blog-body">
-                                            <!--Heading-->
-                                            <div class="item-box-blog-heading">
-                                                <a href="#" tabindex="0">
-                                                    <h5>News Title</h5>
-                                                </a>
-                                            </div>
-                                            <!--Data-->
-                                            <div class="item-box-blog-data" style="background-color: lightcyan;">
-                                                <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
-                                            </div>
-                                            <!--Text-->
-                                            <div class="item-box-blog-text">
-                                                <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>
-                                            </div>
-                                            <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
-                                            <!--Read More Button-->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--.row-->
-                        </div>
-                        <!--.item-->
-                        <div class="carousel-item ">
-                            <div class="row">
-                                <div class="col-md-4" >
-                                    <div class="item-box-blog">
-                                        <div class="item-box-blog-image">
-                                            <!--Date-->
-                                            <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div>
-                                            <!--Image-->
-                                            <figure> <img alt="" src="guten.png"> </figure>
-                                        </div>
-                                        <div class="item-box-blog-body">
-                                            <!--Heading-->
-                                            <div class="item-box-blog-heading">
-                                                <a href="#" tabindex="0">
-                                                    <h5>News Title</h5>
-                                                </a>
-                                            </div>
-                                            <!--Data-->
-                                            <div class="item-box-blog-data" style="background-color: lightcyan;">
-                                                <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
-                                            </div>
-                                            <!--Text-->
-                                            <div class="item-box-blog-text">
-                                                <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>
-                                            </div>
-                                            <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
-                                            <!--Read More Button-->
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4" >
-                                    <div class="item-box-blog">
-                                        <div class="item-box-blog-image">
-                                            <!--Date-->
-                                            <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div>
-                                            <!--Image-->
-                                            <figure> <img alt="" src="guten.png"> </figure>
-                                        </div>
-                                        <div class="item-box-blog-body">
-                                            <!--Heading-->
-                                            <div class="item-box-blog-heading">
-                                                <a href="#" tabindex="0">
-                                                    <h5>News Title</h5>
-                                                </a>
-                                            </div>
-                                            <!--Data-->
-                                            <div class="item-box-blog-data" style="background-color: lightcyan">
-                                                <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
-                                            </div>
-                                            <!--Text-->
-                                            <div class="item-box-blog-text">
-                                                <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>
-                                            </div>
-                                            <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
-                                            <!--Read More Button-->
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4" >
-                                    <div class="item-box-blog">
-                                        <div class="item-box-blog-image">
-                                            <!--Date-->
-                                            <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div>
-                                            <!--Image-->
-                                            <figure> <img alt="" src="guten.png"> </figure>
-                                        </div>
-                                        <div class="item-box-blog-body">
-                                            <!--Heading-->
-                                            <div class="item-box-blog-heading">
-                                                <a href="#" tabindex="0">
-                                                    <h5>News Title</h5>
-                                                </a>
-                                            </div>
-                                            <!--Data-->
-                                            <div class="item-box-blog-data" style="background-color: lightcyan;">
-                                                <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
-                                            </div>
-                                            <!--Text-->
-                                            <div class="item-box-blog-text">
-                                                <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>
-                                            </div>
-                                            <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
-                                            <!--Read More Button-->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--.row-->
-                        </div>
-                        <!--.item-->
-                    </div>
-                    <!--.carousel-inner-->
-                </div>
-                <!--.Carousel-->
-            </div>
-        </div>
-    </div>
-</div>
+@app.route('/index', methods=['GET', 'POST'])
+def index():
+    if request.method == 'POST':
+      
+        f = request.files['file']
+     
+        
+        subject = request.form['subject']
+
+       
+        if subject == "English":
 
 
+            f.save(f"English/{f.filename}")
+        else :
+            if subject == "Computer science":
+                f.save(f"Computer science/{f.filename}")
+            else:
+                if subject == "Global politics":
+                    f.save(f"Global politics/{f.filename}")
+                else :
+                    if subject == "Biology":
+                        f.save(f"Biology/{f.filename}")
+                    else:
+                        if subject == "History":
+                            f.save(f"History/{f.filename}")
+                        else :
+                            f.save(f"files/{f.filename}")
+
+
+    return render_template("index.html")
+    return render_template("acknowledgement.html")
 ```
-## Css code for the posts page 
-```.py 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial;
-  padding: 20px;
-  background: #f1f1f1;
-}
-
-/* Header/Blog Title */
-.header {
-  padding: 100px;
-  font-size: 40px;
-  text-align: center;
-  background: white;
-  background-image: url("MOI.png");
-  background-repeat: repeat;
-  background-size: 700px;
-}
-
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {
-  float: left;
-  width: 75%;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  padding-left: 20px;
-}
-
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-
-}
-.fakeimga {
-  background-image: url("mira.png");
-  background-repeat: no-repeat;
-  height: 30px;
-  width: 300px;
-  padding: 50px;
-
-}
-
-
-
-/* Add a card effect for articles */
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Footer */
-.footer {
-  padding: 10px;
-  text-align: center;
-  background: black;
-  margin-top: 10px;
-  -webkit-text-fill-color: white;
-}
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {
-    width: 100%;
-    padding: 0;
-  }
-}
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #333;
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: black;
-  color: white;
-}
-```
-
-The code above shows the way in which the posts page was developed using html and css.
-In the html file: 
-In the Css file : 
-
-
-##Success criteria  Menu bar html and Css code :
- Html code : 
- ```.py 
- <!DOCTYPE html>
-<head lang="en">
-    <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="#Posts">Posts</a>
-        <a href="#contact">Contact</a>
-        <a href="#Register"> Register </a>
-    </div>
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet"href="/static/my_style.css">
-    </head>
- ```
- Css code : 
- ```.py 
- .topnav {
-  background-color: #333;
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: black;
-  color: white;
-}
- ```
-
+Fig_:
+In order to ensure that the posts are keeping organized and rapidly accessible, I created a python code that classifies the notes based on their subjects.
+As shown above , I have used if statement firstly to get the file that contains the note and also its subject, afterwards I have also created an if statement and the save function so that the files are classified  and saved in pycharm directories based on the subject they belong too , otherwise if they do not belong to any of the subjects available then they will be saved in a general directories called files.l
 
 
 
