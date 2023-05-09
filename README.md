@@ -63,6 +63,20 @@ https://drive.google.com/file/d/1hwkE0FZ1w6jCV-ABtu-T_lTO2caMC96m/view?usp=share
 
 
 # Criteria C: Developement 
+## List of Techniques 
+1.  Python 
+2.  Html along with Java script inside some html files 
+3.  CSS 
+5.  Flask library
+6.  SQlite 
+7.  If statement 
+8.  Functions 
+9.  OS module
+10. Werkzeug library
+11. my_lib library 
+12. Variables
+
+
 
 ## success criteria (3): posts need to be organized based on the subject
 ```.py 
