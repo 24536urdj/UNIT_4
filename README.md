@@ -23,6 +23,9 @@ At the end ,The effectiveness of the website will be evaluated using the success
 
 
 # Criteria B 
+## System diagram 
+![Screen Shot 2023-05-09 at 18 02 37](https://user-images.githubusercontent.com/112072887/237048386-c163a7bb-7fd8-4dde-8e76-e1341e49d793.png)
+
 ## Flow chart 
 
 https://drive.google.com/file/d/1hwkE0FZ1w6jCV-ABtu-T_lTO2caMC96m/view?usp=share_link
@@ -30,7 +33,7 @@ https://drive.google.com/file/d/1hwkE0FZ1w6jCV-ABtu-T_lTO2caMC96m/view?usp=share
 ![Screen Shot 2023-05-09 at 16 01 44](https://user-images.githubusercontent.com/112072887/237019586-e0c3efa1-16b8-49bf-8954-fde620ba5da5.png)
 
 
-### fig_:  this link shows a flowchart for the code that classifes the files chosen by the user in form of subject categories.
+
 ## Test Plan
 | Description                 | Type             | Inputs                                                                                                                                              | Outputs                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |-----------------------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
