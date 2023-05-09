@@ -15,7 +15,7 @@ At the end ,The effectiveness of the website will be evaluated using the success
 ### Success Criteria 
 1. [issue tackled : enable only isak students to access the website ]: The solution needs to have a login and a registration system.
 2. [issue tackled :  having access to other students posts ]The solution needs to contain a page where client can see all posts 
-3. [issue tackled :  rapid access to notes]The solution needs to be able to keep  the notes posts  organized and easily to follow by providing a filtering button 
+3. [issue tackled :  rapid access to notes]The solution needs to be able to keep  the notes posts  organized and easily to follow by classifying them in categories based on their subjects.
 4. [issue tackled : notes sharing between isak students ]The solution needs to enable the client to add new posts 
 5. [issue tackled : update the notes so that it harmonizes with the curriculum of the year]The solution needs to enable the client to delete unwanted posts.
 6.[issue tackled :  organization of the posts ] The solution needs to have a menu where notes are categorized into subjects such as category for english lang-lit , History and Computer sciene.
@@ -64,7 +64,7 @@ https://drive.google.com/file/d/1hwkE0FZ1w6jCV-ABtu-T_lTO2caMC96m/view?usp=share
 
 # Criteria C: Developement 
 
-## success criteria (2): posts page html code 
+## success criteria (3): posts need to be organized based on the subject
 ```.py 
 @app.route('/index', methods=['GET', 'POST'])
 def index():
