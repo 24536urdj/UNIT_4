@@ -132,6 +132,30 @@ def index():
 Fig_:
 In order to ensure that the posts are keeping organized and rapidly accessible, I created a python code that classifies the notes based on their subjects.
 As shown above , firstly I have used flask route in order to create the url that takes the user to the website while specifying the methods allowed . I have also used if statement firstly to get the file that contains the note and also its subject, afterwards I have also created an if statement and the save function so that the files are classified  and saved in pycharm directories based on the subject they belong too , otherwise if they do not belong to any of the subjects available then they will be saved in a general directories called files, as an example if the subject is English then the file chosen will be saved in the directory called English 
+## connect to sql database 
+```.py 
+class database_worker:
+    def __init__(self,name):
+        self.connection = sqlite3.connect(name)
+        self.cursor = self.connection.cursor()
+    def search(self,query):
+        result= self.cursor.execute(query).fetchall()
+        return result
+
+    def run_save(self,query):
+        self.cursor.execute(query)
+        self.connection.commit()
+
+    def close(self):
+        self.connection.close()
+
+```
+fig_: 
+the python code enables to connect to an sql database throught as seen firstly creating a class called database_worker 
+where we define two functions the __init__ function which allows the class databse_worker to initialize the attributes of the class.
+the function search allows  to see if your information provided in the self-query order form matches information in the database
+moreover the run_save function allows to run the sql query and save the data.
+the close function allow us to close the database after the query was executed 
 
 
 
