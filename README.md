@@ -157,8 +157,34 @@ the function search allows  to see if your information provided in the self-quer
 moreover the run_save function allows to run the sql query and save the data.
 the close function allow us to close the database after the query was executed 
 
+## 
+```.py
+<!DOCTYPE html>
+<head lang="en">
+        <meta charset="UTF-8">
+        <link rel="stylesheet"href="/static/my_style.css">
+</head>
+<body>
+<div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <div class="dropdown">
+        <button class="dropbtn">Subjects
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="/login_page">English A&B</a>
+            <a href="#">History HL&SL</a>
+            <a href="econ">Economics</a>
+            <a href="#">Global politics</a>
+            <a href="/biology_page">Biology</a>
 
-
+        </div>
+        </div>
+```
+fig_:
+this an html code used to create a menu bar and also a drop down navigation bar which allows the user to serach directly for the sun¥bject they would like to take notes of.
+the code was built as follow: create a section in the html document then inside it I added another section with a class called dropdown , inside it I have also added button tag which  defines a clickable button, afterwards I have a added inside it class "fa fa-caret-down" so that once the user clicks the button subject the list of subjects will drop down. furthermore I have added another section that shows the drop down content  then    the <a> tag which defines a hyperlink, that is used to link from one page to another. as an example if the client click on the economic button  then it will take you to the web page called econ which displays notes for ib economics.
 
 
 
