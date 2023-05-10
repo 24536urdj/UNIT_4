@@ -43,23 +43,23 @@ https://drive.google.com/file/d/1hwkE0FZ1w6jCV-ABtu-T_lTO2caMC96m/view?usp=share
 
 ## Task Record 
 
-|    | Planned Action                                        | Planned Outcome                                                                            | Design Cycle   | Time Estimate | Target Completion | Criteria |
+|    | Planned Action                                        | Planned Outcome                                                                            |  | Time Estimate | Target Completion | Criteria |
 |----|-------------------------------------------------------|--------------------------------------------------------------------------------------------|----------------|---------------|-------------------|----------|
-| 1  | Code the about_me page                            | programming the about_me page using  python and pycharm,              | Development       | 60 minutes    | 4 april        | C       |
+| 1  | Code the about_me page                            | programming the about_me page using  python and pycharm,              | 60 minutes    | 4 april        | C       |
 | 2  | add the post function                           | add a function that will allow the user to post their notes .                                                | Development      | 30 minutes    | 5 april         | C        |
 | 3  |Create a database for the user and their posts                            | create using sql a database called social_networok that conatins two tables one for users and one for posts  |Development       | 5 minutes        | 7 april           | C       |
-| 4  | Write down the problem definition                              | state a detailed version of the problem                       | Planning       | 40 minutes    | 13 april         | A        |
+| 4  | Write down the problem definition                              | state a detailed version of the problem                       |  40 minutes    | 13 april         | A        |
 | 5  | Write down the proposed solution with justification of tools implied | Reasearch and evaluation of solutions to choose an adequate one                                   | Planning       | 30 min     | 17 april        | A        |
 | 6 | Write down the success criterias  | Choosing important feature of the website that will show how successful or unsuccessful the website is                                   | Planning       | 30 min     | 17 april        | A        |
-| 7 | Rewrite the problem definition  | Add more details to the problem definition in order to stte clearly the main issue                                | Planning       | 20 min     | 19 april        | A        |
-| 8 | Code the main page  |     programming the main page using  python and pycharm                              | Development        | 30 min     | 21 april        | C      |
-| 9 | Code the posts page  |     programming the posts page using  python and pycharm                              | Development        | 30 min     | 21 april        | C      |
-| 10 |  menu bar  | use the header attribute to add a menu bar so that students can naviagte the website easily                                 | Development        | 15 min     | 21 april        | C      |
+| 7 | Rewrite the problem definition  | Add more details to the problem definition in order to stte clearly the main issue                                | 20 min     | 19 april        | A        |
+| 8 | Code the main page  |     programming the main page using  python and pycharm                              | 30 min     | 21 april        | C      |
+| 9 | Code the posts page  |     programming the posts page using  python and pycharm                              | 30 min     | 21 april        | C      |
+| 10 |  menu bar  | use the header attribute to add a menu bar so that students can naviagte the website easily                                 | 5 min     | 21 april        | C      |
 | 11 |  Login and registration page  | use transition method in  javascript html and css in order to create a login and registration page                                | Development        | 45 min     | 24 april        | C      |
-| 12 |  the post creation page   | programming a page where the client can add their own notes as posts                                 | Development        | 45 min     | 26 april        | C      |
-| 13|  flowcharts   | create the first flow chart that shows  the code that classifies    files into categories                            | Design       | 20 min     | 07 May       | B     |
-| 14|  UML diagram  | create the UML diagram that shows visually the classes contained in the code                            | Design       | 10 min     | 09 May       | B     |
-| 15| Database table  | create a database table to insert the English subject  files uploaded by the client                             | Development      | 5 min     | 09 May       | C     |
+| 12 |  the post creation page   | programming a page where the client can add their own notes as posts                                 | 45 min     | 26 april        | C      |
+| 13|  flowcharts   | create the first flow chart that shows  the code that classifies    files into categories                            | 20 min     | 07 May       | B     |
+| 14|  UML diagram  | create the UML diagram that shows visually the classes contained in the code                            |  10 min     | 09 May       | B     |
+| 15| Database table  | create a database table to insert the English subject  files uploaded by the client                             | 5 min     | 09 May       | C     |
 
 
 
@@ -118,7 +118,7 @@ def index():
 ```
 Fig_:
 In order to ensure that the posts are keeping organized and rapidly accessible, I created a python code that classifies the notes based on their subjects.
-As shown above , I have used if statement firstly to get the file that contains the note and also its subject, afterwards I have also created an if statement and the save function so that the files are classified  and saved in pycharm directories based on the subject they belong too , otherwise if they do not belong to any of the subjects available then they will be saved in a general directories called files.l
+As shown above , firstly I have used flask route in order to create the url that takes the user to the website while specifying the methods allowed . I have also used if statement firstly to get the file that contains the note and also its subject, afterwards I have also created an if statement and the save function so that the files are classified  and saved in pycharm directories based on the subject they belong too , otherwise if they do not belong to any of the subjects available then they will be saved in a general directories called files, as an example if the subject is English then the file chosen will be saved in the directory called English 
 
 
 
