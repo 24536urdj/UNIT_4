@@ -43,7 +43,7 @@ https://drive.google.com/file/d/1hwkE0FZ1w6jCV-ABtu-T_lTO2caMC96m/view?usp=share
 
 ## Task Record 
 
-|    | Planned Action                                        | Planned Outcome                                                                            |  | Time Estimate | Target Completion | Criteria |
+|    | Planned Action                                        | Planned Outcome                                                                            | Time Estimate | Target Completion | Criteria |
 |----|-------------------------------------------------------|--------------------------------------------------------------------------------------------|----------------|---------------|-------------------|----------|
 | 1  | Code the about_me page                            | programming the about_me page using  python and pycharm,              | 60 minutes    | 4 april        | C       |
 | 2  | add the post function                           | add a function that will allow the user to post their notes .                                                | Development      | 30 minutes    | 5 april         | C        |
