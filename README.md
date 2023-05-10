@@ -23,8 +23,9 @@ At the end ,The effectiveness of the website will be evaluated using the success
 
 
 # Criteria B 
-## System diagram 
-![Screen Shot 2023-05-09 at 18 02 37](https://user-images.githubusercontent.com/112072887/237048386-c163a7bb-7fd8-4dde-8e76-e1341e49d793.png)
+## System diagram
+
+![Screen Shot 2023-05-10 at 14 00 13](https://github.com/24536urdj/UNIT_4/assets/112072887/2a04a46e-32bd-4729-b8cf-db41134ee791)
 
 ## Flow chart 
 
