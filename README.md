@@ -26,6 +26,9 @@ At the end ,The effectiveness of the website will be evaluated using the success
 ## System diagram
 
 ![Screen Shot 2023-05-10 at 20 50 12](https://github.com/24536urdj/UNIT_4/assets/112072887/50d90601-ea5a-4e1e-a991-711a20dbf4b5)
+## Wireframe diagram 
+![Screen Shot 2023-05-10 at 21 43 54](https://github.com/24536urdj/UNIT_4/assets/112072887/0238fd30-11e7-48de-9735-af2a79ee60cd)
+
 
 ## Flow chart 
 
