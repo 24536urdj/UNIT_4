@@ -14,7 +14,7 @@ At the end ,The effectiveness of the website will be evaluated using the success
 
 ### Success Criteria 
 1. [issue tackled : enable only isak students to access the website ]: The solution needs to have a login and a registration system.
-2. [issue tackled :  having access to other students posts ]The solution needs to contain a page where client can see all posts 
+2. [issue tackled :  having access to other students posts ]The solution needs to be able to classify updated notes into directories based on their subjects.
 3. [issue tackled :  rapid access to notes]The solution needs to be able to keep  the notes posts  organized and easily to follow by classifying them in categories based on their subjects.
 4. [issue tackled : notes sharing between isak students ]The solution needs to enable the client to add new posts 
 5. [issue tackled : update the notes so that it harmonizes with the curriculum of the year]The solution needs to enable the client to delete unwanted posts.
@@ -26,6 +26,10 @@ At the end ,The effectiveness of the website will be evaluated using the success
 ## System diagram
 
 ![Screen Shot 2023-05-10 at 20 50 12](https://github.com/24536urdj/UNIT_4/assets/112072887/50d90601-ea5a-4e1e-a991-711a20dbf4b5)
+
+fig_: 
+the system diagram  visually illlustrates the components of the programmes and the relations they hold with each others.
+The program is created using pycharm and python, moreover. all the data issued will be stored in an sqlite database.finally the website will get some inputs from the user and send them back to the program which will help in outputting new data and display on the website. 
 ## Wireframe diagram 
 ![Screen Shot 2023-05-10 at 21 43 54](https://github.com/24536urdj/UNIT_4/assets/112072887/0238fd30-11e7-48de-9735-af2a79ee60cd)
 
@@ -40,11 +44,11 @@ The USERS data table contains id which automatically added as it is a primary ke
 
 https://drive.google.com/file/d/1hwkE0FZ1w6jCV-ABtu-T_lTO2caMC96m/view?usp=share_link
 fig_:
-the following flow chart represent the code used to insert  
+since the client wants the notes to be organized in categories based on their subject,i have created a code for it that is represented by  the following flow chart which shows in plain english  the code used to get all the files in a directory by just entering its path in pycharm project "flaskProject" this will enable to insert the files in a database and therefore display it on the website just as the client wanted.
 ## UML Diagram : 
 ![Screen Shot 2023-05-09 at 16 01 44](https://user-images.githubusercontent.com/112072887/237019586-e0c3efa1-16b8-49bf-8954-fde620ba5da5.png)
 
-
+This Unified Modeling Language diagram shows the class used in programing the website, the class is called database_worker and it is responsible to manage as an example executing the queries , and closing the database along with many other  different databse interactions that they handle.
 
 ## Test Plan
 | Description                 | Type             | Inputs                                                                                                                                              | Outputs                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -79,6 +83,9 @@ the following flow chart represent the code used to insert
 | 19| flow chart : design   | create the second  flow chart that shows  the code with which i connect to sql database                            | 20 min     | 10 May       | C     |
 | 20| explain code  : development    | add other parts of the code and explain the way it was developed                        | 20 min     | 10 May       | C     |
 | 21| draw the ER diagram : design    | draw an entity relation diagram that shows the databases used in the process and the relationship they have with each others      | 20 min     | 10 May       | C     |
+| 22| draw the ER diagram : design    | draw an entity relation diagram that shows the databases used in the process and the relationship they have with each others      | 20 min     | 10 May       | C     |
+
+
 
 
 
