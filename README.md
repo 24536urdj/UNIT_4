@@ -31,6 +31,9 @@ At the end ,The effectiveness of the website will be evaluated using the success
 
 ## ER diagram 
 ![Screen Shot 2023-05-11 at 16 30 52](https://github.com/24536urdj/UNIT_4/assets/112072887/8a00a3e7-ee46-43e0-b337-e4e03785b3da)
+fig_:  
+As it seen I have only created one database table called USERS in which I stored the user's registration and login information.
+The USERS data table contains id which automatically added as it is a primary key integer,name column in which the name of the user is stored,email column which  also stores the user's email address. Furthermore i have also added the password column where the passowrd of the user is stored , therefore it ensures the security of the login system.
 
 
 ## Flow chart 
