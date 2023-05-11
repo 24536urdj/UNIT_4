@@ -76,6 +76,9 @@ https://drive.google.com/file/d/1hwkE0FZ1w6jCV-ABtu-T_lTO2caMC96m/view?usp=share
 | 18| Wireframe diagram : design   | create a wireframe diagram to show a general view to the client of how would the website look like                         | 30 min     | 10 May       | C     |
 | 19| flow chart : design   | create the second  flow chart that shows  the code with which i connect to sql database                            | 20 min     | 10 May       | C     |
 | 20| explain code  : development    | add other parts of the code and explain the way it was developed                        | 20 min     | 10 May       | C     |
+| 21| draw the ER diagram : design    | draw an entity relation diagram that shows the databases used in the process and the relationship they have with each others      | 20 min     | 10 May       | C     |
+
+
 
 
 
