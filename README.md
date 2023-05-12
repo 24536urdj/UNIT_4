@@ -212,24 +212,45 @@ the code was built as follow: create a section in the html document then inside 
     
 ##
 ```.py 
+    
     import os
 @app.route('/delete_post',methods=['POST','GET'])
 def delete():
     if request.method == 'POST':
         print("hello")
         file = request.form['file']
+
+
         print(file)
         print(request.form)
-        os.remove(f"/Users/m19-051/PycharmProjects/flaskProject/static/{file}")
-    return render_template("delete.html")
-
+        subject = request.form['subject']
 
 
 
 ```
     
 fig_: 
-    This code shows the method I used in order to enable the user to delete their posts, first of all I have imported os which allows  to run a  command in python,afterwards I have also defined a function called delete in which i put an if statement so that the code will only work if the user have posted something, after the user enter the name of the file in the delete page, then python file will receive the text and then using os.remove function the file will be deleted from the directory and therefore wil not be displayed in the web page.
+    This code shows the method I used in order to enable the user to delete their posts, first of all I have imported os which allows  to run a  command in python,afterwards I have also defined a function called delete in which i put an if statement so that the code will only work if the user have posted something, after the user enter the name of the file in the delete page, then python file will receive the text and its subject in order to do the next step below.
+```.py 
+      if  subject== "Economics":
+
+            os.remove(f"/Users/m19-051/PycharmProjects/flaskProject/Economics/{file}")
+        else:
+            if subject== "Biology":
+                os.remove(f"/Users/m19-051/PycharmProjects/flaskProject/Biology/{file}")
+            else:
+                if subject=="Global poltics":
+                    os.remove(f"/Users/m19-051/PycharmProjects/flaskProject/Global politics/{file}")
+                else:
+                    if subject=="English":
+                        os.remove(f"/Users/m19-051/PycharmProjects/flaskProject/English/{file}")
+
+
+```
+fig_:
+The next step after getting the file name and its subject is to copy the path or directory of the file so that we can use the function of os.remove in order to delete from the directory it belongs to.
+and in order to achieve this I have used if statement , therefore the path of such a file will be chosen based on the subject,as such if the subject is english then the directory inside the function os.remove will be /Users/m19-051/PycharmProjects/flaskProject/Economics/{file}
+
 
 
 
