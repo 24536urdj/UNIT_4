@@ -89,7 +89,10 @@ This Unified Modeling Language diagram shows the class used in programing the we
 | 20| explain code  : development    | add other parts of the code and explain the way it was developed                        | 20 min     | 10 May       | C     |
 | 21| draw the ER diagram : design    | draw an entity relation diagram that shows the databases used in the process and the relationship they have with each others      | 20 min     | 10 May       | C     |
 | 22| draw the ER diagram : design    | draw an entity relation diagram that shows the databases used in the process and the relationship they have with each others      | 20 min     | 10 May       | C     |
-| 23| explanation of a part of  the code : development   | Add another explanation of a part of the code that is responsible for deleting posts that client does not want anymore.      | 20 min     | 11 May       | C     |
+| 23| explanation of a part of  the code : development   | Add another explanation of a part of the code that is responsible for deleting posts that client does not want anymore.      | 10 min     | 11 May       | C     |
+| 23| Create flow chart : design  | Create a flow chart that shows in plain english how the code to delete a post was developed      | 7 min     | 11 May       | C     |
+
+
 
 
 
