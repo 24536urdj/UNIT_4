@@ -31,7 +31,7 @@ fig_:
 the system diagram  visually illlustrates the components of the programmes and the relations they hold with each others.
 The program is created using pycharm and python, moreover. all the data issued will be stored in an sqlite database.finally the website will get some inputs from the user and send them back to the program which will help in outputting new data and display on the website. 
 ## Wireframe diagram 
-![Screen Shot 2023-05-12 at 16 51 00](https://github.com/24536urdj/UNIT_4/assets/112072887/0557104e-754c-4824-8ba3-0d9a7ee0df72)
+![Screen Shot 2023-05-12 at 17 11 21](https://github.com/24536urdj/UNIT_4/assets/112072887/64e63c21-aa6a-47ad-85f4-515188c3862f)
 
 ## ER diagram 
 ![Screen Shot 2023-05-11 at 16 30 52](https://github.com/24536urdj/UNIT_4/assets/112072887/8a00a3e7-ee46-43e0-b337-e4e03785b3da)
@@ -56,9 +56,7 @@ This Unified Modeling Language diagram shows the class used in programing the we
 | login system         | Unit test        | 1. Run the python file app.py 2.open the webiste . Click login button on the login_page 3. Input information in each textfield following the hint text 4. Click login | If the username is wrong:an error hint_text  will say the username is wrong. If password is wrong :an error hint_text will appear saying the password is wrong don't match: the message will say that password doesn't match. If entering the right password and username : successfully it will take you to the main page.                                                                                                                                                                                                                          |
 |  Add new file       | Unit test        | 1. run the python file app.py 2. login  3. press file button create a post on the main_page  4.click the button choose file  5.select a file that conatins the notes you want to share  6.enter in the text field next to the button the subject of the note (as an example English) 7.press the button submit 8. go back to the pycharm and select flask project 9. go to directory Englis 10. see if the file you choose was added there                                              | the file name need to be correct and exist in the directory of the subject chosen 
 | login system     | Unit test        | 1. run the python file app.py 2. open the website . clik signup button. sign up. then go to the sql databse called social.db in pycharm.select the table called USERS. check if the registration information exists in the table                     |the information need to be in the appropriate row and also identical to what the user entered 
-
-
-## Task Record 
+| Delete a post | Unit test        | 1. run the python file app.py 2. open the website . log in . then click subject button on the navigation bar. then go to as an example Economic Hl and Sl page. afterwards click the button delete,after you go to the delete post page , enter the name of the file you want to delete and then upload it.          |The file that has the name that was entered by the user need to be deleted from the static directory as all files
 
 | | Planned Action                 | Planned outcome            | time estimate                                                                                                                                             | target completion date|              Criterion                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |-----|-----------------------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|
@@ -84,6 +82,10 @@ This Unified Modeling Language diagram shows the class used in programing the we
 | 20| explain code  : development    | add other parts of the code and explain the way it was developed                        | 20 min     | 10 May       | C     |
 | 21| draw the ER diagram : design    | draw an entity relation diagram that shows the databases used in the process and the relationship they have with each others      | 20 min     | 10 May       | C     |
 | 22| draw the ER diagram : design    | draw an entity relation diagram that shows the databases used in the process and the relationship they have with each others      | 20 min     | 10 May       | C     |
+| 23| explanation of a part of  the code : development   | Add another explanation of a part of the code that is responsible for deleting posts that client does not want anymore.      | 20 min     | 11 May       | C     |
+
+
+
 
 
 
