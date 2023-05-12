@@ -181,7 +181,7 @@ the function search allows  to see if your information provided in the self-quer
 moreover the run_save function allows to run the sql query and save the data.
 the close function allow us to close the database after the query was executed 
 
-## 
+## Create a menu bar 
 ```.py
 <!DOCTYPE html>
 <head lang="en">
@@ -210,7 +210,7 @@ fig_:
 this an html code used to create a menu bar and also a drop down navigation bar which allows the user to serach directly for the sun¥bject they would like to take notes of.
 the code was built as follow: create a section in the html document then inside it I added another section with a class called dropdown , inside it I have also added button tag which  defines a clickable button, afterwards I have a added inside it class "fa fa-caret-down" so that once the user clicks the button subject the list of subjects will drop down. furthermore I have added another section that shows the drop down content  then    the <a> tag which defines a hyperlink, that is used to link from one page to another. as an example if the client click on the economic button  then it will take you to the web page called econ which displays notes for ib economics.
     
-##
+## Delete a post : part 1 
 ```.py 
     
     import os
@@ -228,6 +228,7 @@ def delete():
 
 
 ```
+## Delete a post : part 2
     
 fig_: 
     This code shows the method I used in order to enable the user to delete their posts, first of all I have imported os which allows  to run a  command in python,afterwards I have also defined a function called delete in which i put an if statement so that the code will only work if the user have posted something, after the user enter the name of the file in the delete page, then python file will receive the text and its subject in order to do the next step below.
