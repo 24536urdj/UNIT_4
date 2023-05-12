@@ -49,7 +49,7 @@ since the client wants the notes to be organized in categories based on their su
 ![Screen Shot 2023-05-12 at 17 33 20](https://github.com/24536urdj/UNIT_4/assets/112072887/7f08f5f3-fddd-4a2b-941f-6ff2fe8dcda7)
 fig_:
 since the client wants to be able to delete the notes ,i have created a code for it that is represented by  the following flow chart which shows in plain english  the code used to get all the file name that the user wants to delete and also the subject of the file , afterwards the file is deleted from its diectory using os.remove function
-## Flow chart 2:
+
 
 
 ## UML Diagram : 
