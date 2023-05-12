@@ -31,7 +31,7 @@ fig_:
 the system diagram  visually illlustrates the components of the programmes and the relations they hold with each others.
 The program is created using pycharm and python, moreover. all the data issued will be stored in an sqlite database.finally the website will get some inputs from the user and send them back to the program which will help in outputting new data and display on the website. 
 ## Wireframe diagram 
-![Screen Shot 2023-05-10 at 21 43 54](https://github.com/24536urdj/UNIT_4/assets/112072887/0238fd30-11e7-48de-9735-af2a79ee60cd)
+![Screen Shot 2023-05-12 at 16 51 00](https://github.com/24536urdj/UNIT_4/assets/112072887/0557104e-754c-4824-8ba3-0d9a7ee0df72)
 
 ## ER diagram 
 ![Screen Shot 2023-05-11 at 16 30 52](https://github.com/24536urdj/UNIT_4/assets/112072887/8a00a3e7-ee46-43e0-b337-e4e03785b3da)
