@@ -29,7 +29,7 @@ At the end ,The effectiveness of the website will be evaluated using the success
 
 ![Screen Shot 2023-05-10 at 20 50 12](https://github.com/24536urdj/UNIT_4/assets/112072887/50d90601-ea5a-4e1e-a991-711a20dbf4b5)
 
-fig_: 
+fig_2: 
 the system diagram  visually illlustrates the components of the programmes and the relations they hold with each others.
 The program is created using pycharm and python, moreover. all the data issued will be stored in an sqlite database.finally the website will get some inputs from the user and send them back to the program which will help in outputting new data and display on the website. 
 ## Wireframe diagram 
@@ -37,7 +37,7 @@ The program is created using pycharm and python, moreover. all the data issued w
 
 ## ER diagram 
 ![Screen Shot 2023-05-11 at 16 30 52](https://github.com/24536urdj/UNIT_4/assets/112072887/8a00a3e7-ee46-43e0-b337-e4e03785b3da)
-fig_:  
+fig_3:  
 As it seen I have only created one database table called USERS in which I stored the user's registration and login information.
 The USERS data table contains id which automatically added as it is a primary key integer,name column in which the name of the user is stored,email column which  also stores the user's email address. Furthermore i have also added the password column where the passowrd of the user is stored , therefore it ensures the security of the login system.
 
@@ -45,11 +45,11 @@ The USERS data table contains id which automatically added as it is a primary ke
 ## Flow chart 1
 
 https://drive.google.com/file/d/1hwkE0FZ1w6jCV-ABtu-T_lTO2caMC96m/view?usp=share_link
-fig_:
+fig_4:
 since the client wants the notes to be organized in categories based on their subject,i have created a code for it that is represented by  the following flow chart which shows in plain english  the code used to get all the files in a directory by just entering its path in pycharm project "flaskProject" this will enable to insert the files in a database and therefore display it on the website just as the client wanted.
 ## Flow chart 2:
 ![Screen Shot 2023-05-12 at 17 33 20](https://github.com/24536urdj/UNIT_4/assets/112072887/7f08f5f3-fddd-4a2b-941f-6ff2fe8dcda7)
-fig_:
+fig_5:
 since the client wants to be able to delete the notes ,i have created a code for it that is represented by  the following flow chart which shows in plain english  the code used to get all the file name that the user wants to delete and also the subject of the file , afterwards the file is deleted from its diectory using os.remove function
 
 
@@ -57,6 +57,7 @@ since the client wants to be able to delete the notes ,i have created a code for
 ## UML Diagram : 
 ![Screen Shot 2023-05-09 at 16 01 44](https://user-images.githubusercontent.com/112072887/237019586-e0c3efa1-16b8-49bf-8954-fde620ba5da5.png)
 
+fig_6:
 This Unified Modeling Language diagram shows the class used in programing the website, the class is called database_worker and it is responsible to manage as an example executing the queries , and closing the database along with many other  different databse interactions that they handle.
 
 ## Test Plan
@@ -165,7 +166,7 @@ def index():
     return render_template("index.html")
     return render_template("acknowledgement.html")
 ```
-Fig_:
+Fig_7:
 In order to ensure that the posts are keeping organized and rapidly accessible, I created a python code that classifies the notes based on their subjects.
 As shown above , firstly I have used flask route in order to create the url that takes the user to the website while specifying the methods allowed . I have also used if statement firstly to get the file that contains the note and also its subject, afterwards I have also created an if statement and the save function so that the files are classified  and saved in pycharm directories based on the subject they belong too , otherwise if they do not belong to any of the subjects available then they will be saved in a general directories called files, as an example if the subject is English then the file chosen will be saved in the directory called English 
 ## connect to sql database 
@@ -186,7 +187,7 @@ class database_worker:
         self.connection.close()
 
 ```
-fig_: 
+fig_8: 
 the python code enables to connect to an sql database throught as seen firstly creating a class called database_worker 
 where we define two functions the __init__ function which allows the class databse_worker to initialize the attributes of the class.
 the function search allows  to see if your information provided in the self-query order form matches information in the database
@@ -218,7 +219,7 @@ the close function allow us to close the database after the query was executed
         </div>
         </div>
 ```
-fig_:
+fig_9:
 this an html code used to create a menu bar and also a drop down navigation bar which allows the user to serach directly for the sun¥bject they would like to take notes of.
 the code was built as follow: create a section in the html document then inside it I added another section with a class called dropdown , inside it I have also added button tag which  defines a clickable button, afterwards I have a added inside it class "fa fa-caret-down" so that once the user clicks the button subject the list of subjects will drop down. furthermore I have added another section that shows the drop down content  then    the <a> tag which defines a hyperlink, that is used to link from one page to another. as an example if the client click on the economic button  then it will take you to the web page called econ which displays notes for ib economics.
     
@@ -242,7 +243,7 @@ def delete():
 ```
 ## Delete a post : part 2
     
-fig_: 
+fig_10: 
     This code shows the method I used in order to enable the user to delete their posts, first of all I have imported os which allows  to run a  command in python,afterwards I have also defined a function called delete in which i put an if statement so that the code will only work if the user have posted something, after the user enter the name of the file in the delete page, then python file will receive the text and its subject in order to do the next step below.
 ```.py 
       if  subject== "Economics":
@@ -260,7 +261,7 @@ fig_:
 
 
 ```
-fig_:
+fig_11:
 The next step after getting the file name and its subject is to copy the path or directory of the file so that we can use the function of os.remove in order to delete from the directory it belongs to.
 and in order to achieve this I have used if statement , therefore the path of such a file will be chosen based on the subject,as such if the subject is english then the directory inside the function os.remove will be /Users/m19-051/PycharmProjects/flaskProject/Economics/{file}
 
