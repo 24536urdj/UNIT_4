@@ -55,7 +55,7 @@ https://drive.google.com/file/d/1hwkE0FZ1w6jCV-ABtu-T_lTO2caMC96m/view?usp=share
 ### fig.5: 
 since the client wants the notes to be organized in categories based on their subject,i have created a code for it that is represented by  the following flow chart which shows in plain english  the code used to get all the files in a directory by just entering its path in pycharm project "flaskProject" this will enable to insert the files in a database and therefore display it on the website just as the client wanted.
 ## Flow chart 2:
-![Screen Shot 2023-05-12 at 17 33 20](https://github.com/24536urdj/UNIT_4/assets/112072887/7f08f5f3-fddd-4a2b-941f-6ff2fe8dcda7)
+![Screen Shot 2023-05-13 at 11 27 36](https://github.com/24536urdj/UNIT_4/assets/112072887/dfff3b16-5949-4888-b1bd-b37a6f31c2b7)
 
 
 ### fig.6:
