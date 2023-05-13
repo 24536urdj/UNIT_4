@@ -1,6 +1,7 @@
 # UNIT_4
 ![Screen Shot 2023-04-13 at 8 58 44](https://user-images.githubusercontent.com/112072887/231611426-48d1189e-0f13-4a74-ae50-c36b0177bd73.png)
-fig_1= 
+
+fig_1= this picture was taking from pinteres[^1]
 
 # Criteria A planning
 
@@ -295,4 +296,5 @@ https://github.com/24536urdj/UNIT_4/assets/112072887/91d01370-a81b-4a1e-bc9e-698
 
 ### Work cited 
 [^3]: https://www.businessnewsdaily.com/5804-what-is-sql.html#:~:text=Its%20portability%20makes%20it%20a,retrieve%20it%20quickly%20and%20efficiently.
+[^1]: https://www.pinterest.fr/pin/538743174184866151/
 
