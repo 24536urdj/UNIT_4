@@ -253,10 +253,11 @@ def delete():
 
 
 ```
+### fig.11: 
+This code shows the method I used in order to enable the user to delete their posts, first of all I have imported os which allows  to run a  command in python,afterwards I have also defined a function called delete in which i put an if statement so that the code will only work if the user have posted something, after the user enter the name of the file in the delete page, then python file will receive the text and its subject in order to do the next step below.
 ## Delete a post : part 2
     
- ### fig.11: 
-This code shows the method I used in order to enable the user to delete their posts, first of all I have imported os which allows  to run a  command in python,afterwards I have also defined a function called delete in which i put an if statement so that the code will only work if the user have posted something, after the user enter the name of the file in the delete page, then python file will receive the text and its subject in order to do the next step below.
+ 
 ```.py 
       if  subject== "Economics":
 
