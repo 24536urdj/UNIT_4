@@ -7,12 +7,12 @@
 
 ### Problem definition
 My client (who is currently a student in an ib school )has expressed  their worries about the amount of notes they need in order to revise and  understand the curriculum of all their subjects in order to pass successfully  the upcoming exams for both g11 and g12 , especially that they do not have time and sometimes the courage to ask other students to send them a lot of notes , therefore they requested a solution where different g11 and g12 from isak only and not other schools  can share their notes that will be categorized based on the subjects they take ,and can be accessed rapidly through filtering  which is why they eliminated facebook groups and other social network groups as a possible solution since it will be very hard to find the notes you need for their  own subjects and their  own level quickly, moreover taking into consideration that changement that happens to do curriculum and changement  of teachers,the client requested a way to keep the website updated regularly.
-### Proposed solution 
-Considering the requirements for the idea, an adequate solution is creating a social network website for  G11 isak students and G12 where the users can create an account and  share their notes in form of posts while also having the ability to view other users posts that will be organized in categories based on the subject and also ordered in a chronological way so that the user can access it easily and quickly. 
-The social network  website  will be created  using  python , html and css because firstly python is  a multi-functionality language having capabilities to operate in multiple ways, that does not need a license and also easily understandable and usable  for the programmer.for html and css,as Both HTML and CSS are frequently used languages for web development  , also HTML uses a tag-based structure which is easy to understand even without any prior technical experience, and CSS uses a simplistic structure as well making the learning curve for mastery relatively easy; therefore it is more adequate for the developer of the website who is more comfortable with these languages than others like java scripts and in order to keep it organized and fulfill the success criteria , I will use sql to associate a database to the website because it's portability makes it a convenient option for users, as they can transfer it from one device to another with no issues. It processes queries quickly. No matter how large data might be, SQL can retrieve it quickly and efficiently.[^3] so that the  client will be able to add, withdraw and edit the notes shared.
 ### Design statement
 Taking into consideration the client's requirements and need , I will design this notes sharing  website using python, html, css , javascript , sqlite and flask , therefore it will take  me 4 weeks to develop it .
 At the end ,The effectiveness of the website will be evaluated using the success criterias below.
+### Proposed solution 
+Considering the requirements for the idea, an adequate solution is creating a social network website for  G11 isak students and G12 where the users can create an account and  share their notes in form of posts while also having the ability to view other users posts that will be organized in categories based on the subject and also ordered in a chronological way so that the user can access it easily and quickly. 
+The social network  website  will be created  using  python , html and css because firstly python is  a multi-functionality language having capabilities to operate in multiple ways, that does not need a license and also easily understandable and usable  for the programmer.for html and css,as Both HTML and CSS are frequently used languages for web development  , also HTML uses a tag-based structure which is easy to understand even without any prior technical experience, and CSS uses a simplistic structure as well making the learning curve for mastery relatively easy; therefore it is more adequate for the developer of the website who is more comfortable with these languages than others like java scripts and in order to keep it organized and fulfill the success criteria , I will use sql to associate a database to the website because it's portability makes it a convenient option for users, as they can transfer it from one device to another with no issues. It processes queries quickly. No matter how large data might be, SQL can retrieve it quickly and efficiently.[^3] so that the  client will be able to add, withdraw and edit the notes shared.
 
 ### Success Criteria 
 1. [issue tackled : enable only isak students to access the website ]: The solution needs to have a login and a registration system.
@@ -21,6 +21,7 @@ At the end ,The effectiveness of the website will be evaluated using the success
 4. [issue tackled : notes sharing between isak students ]The solution needs to enable the client to add new posts 
 5. [issue tackled : update the notes so that it harmonizes with the curriculum of the year]The solution needs to enable the client to delete unwanted posts.
 6.[issue tackled :  organization of the posts ] The solution needs to have a menu where notes are categorized into subjects such as category for english lang-lit , History and Computer sciene.
+
 
 
 
@@ -34,6 +35,8 @@ the system diagram  visually illlustrates the components of the programmes and t
 The program is created using pycharm and python, moreover. all the data issued will be stored in an sqlite database.finally the website will get some inputs from the user and send them back to the program which will help in outputting new data and display on the website. 
 ## Wireframe diagram 
 ![Screen Shot 2023-05-12 at 17 11 21](https://github.com/24536urdj/UNIT_4/assets/112072887/64e63c21-aa6a-47ad-85f4-515188c3862f)
+The diagram above provide a visual representation of the webiste , in order for the client to see clearly how the website design look like and be able to provide feedback on it.
+As it was seen the I-note website contains a login and signup page , a main page that the client can access to after login in, also there is a page to add post that you access using create a post button, moreover there is a subject posts page that client can see by clicking on the chosen subject from the menu bar, at last the wireframe diagram shows also,the delete page that client can access using delete a post button.
 
 ## ER diagram 
 ![Screen Shot 2023-05-11 at 16 30 52](https://github.com/24536urdj/UNIT_4/assets/112072887/8a00a3e7-ee46-43e0-b337-e4e03785b3da)
