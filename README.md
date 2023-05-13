@@ -37,28 +37,29 @@ The program is created using pycharm and python, moreover. all the data issued w
 
 ## ER diagram 
 ![Screen Shot 2023-05-11 at 16 30 52](https://github.com/24536urdj/UNIT_4/assets/112072887/8a00a3e7-ee46-43e0-b337-e4e03785b3da)
-fig_3:  
-As it seen I have only created one database table called USERS in which I stored the user's registration and login information.
+
+fig_3:  As it seen I have only created one database table called USERS in which I stored the user's registration and login information.
 The USERS data table contains id which automatically added as it is a primary key integer,name column in which the name of the user is stored,email column which  also stores the user's email address. Furthermore i have also added the password column where the passowrd of the user is stored , therefore it ensures the security of the login system.
 
 
 ## Flow chart 1
 
 https://drive.google.com/file/d/1hwkE0FZ1w6jCV-ABtu-T_lTO2caMC96m/view?usp=share_link
-fig_4:
-since the client wants the notes to be organized in categories based on their subject,i have created a code for it that is represented by  the following flow chart which shows in plain english  the code used to get all the files in a directory by just entering its path in pycharm project "flaskProject" this will enable to insert the files in a database and therefore display it on the website just as the client wanted.
+
+fig_4: since the client wants the notes to be organized in categories based on their subject,i have created a code for it that is represented by  the following flow chart which shows in plain english  the code used to get all the files in a directory by just entering its path in pycharm project "flaskProject" this will enable to insert the files in a database and therefore display it on the website just as the client wanted.
 ## Flow chart 2:
 ![Screen Shot 2023-05-12 at 17 33 20](https://github.com/24536urdj/UNIT_4/assets/112072887/7f08f5f3-fddd-4a2b-941f-6ff2fe8dcda7)
-fig_5:
-since the client wants to be able to delete the notes ,i have created a code for it that is represented by  the following flow chart which shows in plain english  the code used to get all the file name that the user wants to delete and also the subject of the file , afterwards the file is deleted from its diectory using os.remove function
+
+
+fig_5: since the client wants to be able to delete the notes ,i have created a code for it that is represented by  the following flow chart which shows in plain english  the code used to get all the file name that the user wants to delete and also the subject of the file , afterwards the file is deleted from its diectory using os.remove function
 
 
 
 ## UML Diagram : 
 ![Screen Shot 2023-05-09 at 16 01 44](https://user-images.githubusercontent.com/112072887/237019586-e0c3efa1-16b8-49bf-8954-fde620ba5da5.png)
 
-fig_6:
-This Unified Modeling Language diagram shows the class used in programing the website, the class is called database_worker and it is responsible to manage as an example executing the queries , and closing the database along with many other  different databse interactions that they handle.
+
+fig_6: This Unified Modeling Language diagram shows the class used in programing the website, the class is called database_worker and it is responsible to manage as an example executing the queries , and closing the database along with many other  different databse interactions that they handle.
 
 ## Test Plan
 | Description                 | Type             | Inputs                                                                                                                                              | Outputs                                                                                                                                                                                                                                                                                                                                                                                                                                             |
