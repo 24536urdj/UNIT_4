@@ -315,6 +315,7 @@ https://github.com/24536urdj/UNIT_4/assets/112072887/91d01370-a81b-4a1e-bc9e-698
 [^3]:https://codeclan.com/blog/top-5-reasons-you-should-learn-html-css/
     
 https://www.geeksforgeeks.org/design-a-responsive-sliding-login-registration-form-using-html-css-javascript/
+https://www.w3schools.com/howto/howto_css_blog_layout.asp
     
 
     
