@@ -1,5 +1,6 @@
 # UNIT_4
 ![Screen Shot 2023-04-13 at 8 58 44](https://user-images.githubusercontent.com/112072887/231611426-48d1189e-0f13-4a74-ae50-c36b0177bd73.png)
+fig_1= 
 
 # Criteria A planning
 
