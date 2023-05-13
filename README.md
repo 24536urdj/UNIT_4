@@ -30,19 +30,21 @@ The social network  website  will be created  using  python , html and css becau
 
 ![Screen Shot 2023-05-10 at 20 50 12](https://github.com/24536urdj/UNIT_4/assets/112072887/50d90601-ea5a-4e1e-a991-711a20dbf4b5)
 
-fig.2: 
+### fig.2: 
 the system diagram  visually illlustrates the components of the programmes and the relations they hold with each others.
 The program is created using pycharm and python, moreover. all the data issued will be stored in an sqlite database.finally the website will get some inputs from the user and send them back to the program which will help in outputting new data and display on the website. 
 ## Wireframe diagram 
 ![Screen Shot 2023-05-12 at 17 11 21](https://github.com/24536urdj/UNIT_4/assets/112072887/64e63c21-aa6a-47ad-85f4-515188c3862f)
 
-fig.3: The diagram above provide a visual representation of the webiste , in order for the client to see clearly how the website design look like and be able to provide feedback on it.
+### fig.3:
+The diagram above provide a visual representation of the webiste , in order for the client to see clearly how the website design look like and be able to provide feedback on it.
 As it was seen the I-note website contains a login and signup page , a main page that the client can access to after login in, also there is a page to add post that you access using create a post button, moreover there is a subject posts page that client can see by clicking on the chosen subject from the menu bar, at last the wireframe diagram shows also,the delete page that client can access using delete a post button.
 
 ## ER diagram 
 ![Screen Shot 2023-05-11 at 16 30 52](https://github.com/24536urdj/UNIT_4/assets/112072887/8a00a3e7-ee46-43e0-b337-e4e03785b3da)
 
-fig.4:  As it seen I have only created one database table called USERS in which I stored the user's registration and login information.
+### fig.4: 
+As it seen I have only created one database table called USERS in which I stored the user's registration and login information.
 The USERS data table contains id which automatically added as it is a primary key integer,name column in which the name of the user is stored,email column which  also stores the user's email address. Furthermore i have also added the password column where the passowrd of the user is stored , therefore it ensures the security of the login system.
 
 
