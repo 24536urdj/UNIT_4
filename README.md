@@ -313,6 +313,7 @@ https://github.com/24536urdj/UNIT_4/assets/112072887/91d01370-a81b-4a1e-bc9e-698
 [^1]: https://www.pinterest.fr/pin/538743174184866151/
 [^2]:https://www.analyticsinsight.net/10-reasons-why-python-is-one-of-the-best-programming-languages/#:~:text=Due%20to%20its%20ease%20of,by%20amateur%20professionals%20as%20well.
 [^3]:https://codeclan.com/blog/top-5-reasons-you-should-learn-html-css/
+
     
 https://www.geeksforgeeks.org/design-a-responsive-sliding-login-registration-form-using-html-css-javascript/
 https://www.w3schools.com/howto/howto_css_blog_layout.asp
